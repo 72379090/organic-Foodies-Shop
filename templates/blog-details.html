@@ -1,0 +1,120 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block content %}
+    <!-- Blog Details Hero Begin -->
+    <section class="blog-details-hero set-bg" data-setbg="{% static 'img/blog/details/details-hero.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog__details__hero__text">
+                        <h2>The Moment You Need To Remove Garlic From The Menu</h2>
+                        <h6>remember how it started</h6>
+                        <ul>
+                            <li><a href="{% url 'home-url' %}">Home</a></li>
+                            <li>By Organic foodies shop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Details Hero End -->
+
+    <!-- Blog Details Section Begin -->
+    <section class="blog-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 order-md-1 order-2">
+                    <div class="blog__sidebar">
+                        <div class="blog__sidebar__search">
+                            <form action="#">
+                                <input type="text" placeholder="Search...">
+                                <button type="submit"><span class="icon_search"></span></button>
+                            </form>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <h4>Categories</h4>
+                            <ul>
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Beauty (20)</a></li>
+                                <li><a href="#">Food (5)</a></li>
+                                <li><a href="#">Life Style (9)</a></li>
+                                <li><a href="#">Travel (10)</a></li>
+                            </ul>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <h4>Recent News</h4>
+                            <div class="blog__sidebar__recent">
+                                <a href="#" class="blog__sidebar__recent__item">
+                                    <div class="blog__sidebar__recent__item__pic">
+                                        <img src="{% static 'img/blog/sidebar/sr-1.jpg' %}" alt="">
+                                    </div>
+                                    <div class="blog__sidebar__recent__item__text">
+                                        <h6>Kinds Of Vegetables<br /> Protect The Liver</h6>
+                                        <span>2023</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="blog__sidebar__recent__item">
+                                    <div class="blog__sidebar__recent__item__pic">
+                                        <img src="{% static 'img/blog/sidebar/sr-2.jpg' %}" alt="">
+                                    </div>
+                                    <div class="blog__sidebar__recent__item__text">
+                                        <h6>Tips You To Balance<br /> Nutrition Meal Day</h6>
+                                        <span>2023</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="blog__sidebar__recent__item">
+                                    <div class="blog__sidebar__recent__item__pic">
+                                        <img src="{% static 'img/blog/sidebar/sr-3.jpg' %}" alt="">
+                                    </div>
+                                    <div class="blog__sidebar__recent__item__text">
+                                        <h6>4 Principles Help You Lose <br />Weight With Vegetables</h6>
+                                        <span>2023</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <h4>Search By</h4>
+                            <div class="blog__sidebar__item__tags">
+                                <a href="#">Apple</a>
+                                <a href="#">Beauty</a>
+                                <a href="#">Vegetables</a>
+                                <a href="#">Fruit</a>
+                                <a href="#">Healthy Food</a>
+                                <a href="#">Lifestyle</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 order-md-1 order-1">
+                    <div class="blog__details__text">
+                        <p>Eating fresh fruits and vegetables is one of the best ways to improve your health and well-being. Fruits and vegetables are rich in nutrients that your body needs to function properly and prevent diseases. They also add colour, flavour and variety to your diet, making it more enjoyable and satisfying.
+
+                            Fruits and vegetables contain many vitamins and minerals that are essential for your health. For example, vitamin C helps your immune system fight infections, vitamin A supports your vision and skin health, folate helps your cells grow and divide, and potassium regulates your blood pressure and fluid balance. Fruits and vegetables also provide antioxidants, such as polyphenols and beta-carotene, that protect your cells from damage caused by free radicals, which are harmful molecules that can cause
+                            inflammation, ageing and chronic diseases.
+
+                            Fruits and vegetables are also high in dietary fibre, which is a type of carbohydrate that your body cannot digest. Fibre helps you feel full
+                            for longer, which can help you control your weight and appetite. Fibre also keeps your digestive system healthy by preventing constipation
+                            and other problems. Moreover, fibre can lower your blood cholesterol and blood sugar levels, reducing your risk of heart disease and diabetes.
+
+                            Eating a variety of fruits and vegetables can lower your risk of many chronic diseases, such as cardiovascular diseases, stroke, some types of cancer, eye diseases and digestive disorders. Studies have shown that people who eat more fruits and vegetables have lower blood pressure, lower inflammation, lower oxidative stress, better blood vessel function and lower mortality than those who eat less.
+
+                            How much fruit and vegetables should you eat per day? The World Health Organization (WHO) recommends eating at least 400 grams of fruits and vegetables per day, excluding potatoes and other starchy tubers. This is equivalent to about five portions of 80 grams each. A portion can be a medium-sized piece of fruit, a handful of berries, a half cup of cooked vegetables or a cup of salad. You should aim to eat a variety of fruits and vegetables of different colours, shapes and textures, as each one provides different nutrients and benefits.
+
+                            Eating fresh fruits and vegetables is not only good for your health, but also for your environment and your wallet. Fruits and vegetables are usually cheaper than processed foods and animal products, and they have a lower environmental impact, as they require less water, land and energy to produce. By choosing local and seasonal fruits and vegetables, you can also support your local farmers and reduce your carbon footprint.
+
+                        </p>
+                        <p>
+                            In conclusion, eating fresh fruits and vegetables is a simple and effective way to boost your health, happiness and sustainability. Fruits and vegetables are delicious, nutritious and diverse, and they can help you prevent and manage many diseases. So, what are you waiting for? Have a plant today and enjoy the benefits of eating fresh fruits and vegetables!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Details Section End -->
+{% endblock %}
+
+
